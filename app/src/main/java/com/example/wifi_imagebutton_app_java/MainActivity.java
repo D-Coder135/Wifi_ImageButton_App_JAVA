@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         } else {
             wifiManager.setWifiEnabled(false);
             wifiState = false;
+            imageButton.setImageResource(R.drawable.off);
         }
     }
 }
