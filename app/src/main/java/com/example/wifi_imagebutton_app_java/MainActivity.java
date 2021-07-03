@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (!wifiState) {
             wifiManager.setWifiEnabled(true);
-
+            wifiState = true;
         }
     }
 }
