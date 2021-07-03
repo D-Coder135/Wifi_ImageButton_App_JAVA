@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         imageButton = findViewById(R.id.imageButton);
 
         if (!wifiState) {
+            wifiManager.setWifiEnabled(true);
 
         }
     }
