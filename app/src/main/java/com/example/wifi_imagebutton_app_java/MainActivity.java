@@ -9,7 +9,6 @@ import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
     ImageButton imageButton;
-    Context context;
     WifiManager wifiManager = (WifiManager) getApplicationContext().getSystemService(WIFI_SERVICE);
     private boolean wifiState = false;
 
