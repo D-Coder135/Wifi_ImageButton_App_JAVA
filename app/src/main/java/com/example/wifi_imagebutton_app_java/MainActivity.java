@@ -18,5 +18,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         imageButton = findViewById(R.id.imageButton);
+
+        if (!wifiState) {
+
+        }
     }
 }
