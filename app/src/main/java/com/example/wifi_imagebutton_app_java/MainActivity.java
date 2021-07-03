@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
     ImageButton imageButton;
     Context context;
     WifiManager wifiManager = (WifiManager) getApplicationContext().getSystemService(WIFI_SERVICE);
+    private boolean wifiState = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
